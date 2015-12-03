@@ -62,7 +62,7 @@ BOOST_INC	= /usr/include/boost
 #  g++ basic.o -static -pthread -lboost_log -L/devel/git/gitblit/boost_test/boost/linux32
 # The pre-processor and compiler options.
 #MY_CFLAGS = -I $(BOOST_INC) -L $(BOOST_LIB) -lboost_log  -lpthread
-MY_CFLAGS = -I $(BOOST_INC) -lboost_log -lboost_thread -lboost_system  -lpthread 
+MY_CFLAGS = -I $(BOOST_INC) -lboost_log -lboost_system  -lpthread 
 
 #`pkg-config --cflags opencv boost` -I$(SRCROOT)
 
